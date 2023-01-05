@@ -14,6 +14,7 @@
     background-image: url('../assets/images/header_bg.png'),url('../assets/images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left 3% center;
+    background-size: 70%,6%;
     
 }
 .nav-title{
@@ -26,6 +27,7 @@ nav{
     justify-content: space-between;
     margin: 0 200px;
     font-size: 20px;
+    margin-bottom: 50px;
 
 }
 nav ul{
@@ -67,7 +69,7 @@ nav ul li a{
     font-weight: 600px;
  }
  .banner-title{
-    font-size: 85px;
+    font-size: 75px;
     margin-bottom: 20px;
     font-weight: 700;
  }
@@ -83,10 +85,15 @@ nav ul li a{
     border-radius: 5px;
     border: 1px solid #FD6E0A;
  }
+ .developer-img{
+    width: 100%;
+    margin-bottom: -5px;
+   
+ }
  /* Main section style  */
- .resume-section-btn,main{
-    max-width: 1140px;
-    margin: 0 auto;
+ .resume-section-btn,.container{
+
+    margin: auto 200px;
  }
  /* ABOUT SECTION STYLE  */
  .about{
@@ -182,4 +189,49 @@ margin-bottom: 30px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 110px;
+}
+
+/* CONTACT style */
+
+.contact{
+    display: flex;
+    gap: 110px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.contact-title{
+    text-align: left;
+    font-size: 35px;
+}
+.half{
+    width: 50%;
+}
+.contact-description{
+    color: #474747;
+font-size: 17px;
+margin-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact input[type=text],input[type=email],textarea{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    outline: none;
+    width: 100%;
+
+}
+.contact input,textarea::placeholder{
+    font-size: 16px;
+    color: #474747;
+}
+.contact input[type=submit]{
+    /* background-color: #FD6E0A; */
+    color: white;
 }
