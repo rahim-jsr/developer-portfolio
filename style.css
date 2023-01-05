@@ -9,7 +9,8 @@
 
 /* HEADER AND NAVIGATION STYLES */
 .header{
-    background-color: antiquewhite;
+    background-color:#FFF8F3;
+    ;
     padding-top: 60px;
     background-image: url('../assets/images/header_bg.png'),url('../assets/images/developer.png');
     background-repeat: no-repeat;
@@ -131,6 +132,11 @@ nav ul li a{
     text-align: center;
 
 }
+.skills-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
 
 .skills-description{
     text-align: center;
@@ -182,7 +188,7 @@ margin-bottom: 30px;
 }
 .skill-description{
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 .resume-section-btn{
