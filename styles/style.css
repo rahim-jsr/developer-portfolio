@@ -71,7 +71,7 @@ nav ul li a{
     margin-bottom: 20px;
     font-weight: 700;
  }
- .banner-description{
+ .banner-description,.about-description{
     color: #757575;
     margin-bottom: 30px;
     font-size: 18px;
@@ -82,4 +82,34 @@ nav ul li a{
     background-color: transparent;
     border-radius: 5px;
     border: 1px solid #FD6E0A;
+ }
+ /* Main section style  */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ /* ABOUT SECTION STYLE  */
+ .about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+ }
+ .section-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+ }
+ table{
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+ }
+ tr{
+    color: #757575;
+ }
+ tbody tr{
+    color: black;
+    font-weight: 700;
  }
