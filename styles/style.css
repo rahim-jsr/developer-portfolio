@@ -71,7 +71,7 @@ nav ul li a{
     margin-bottom: 20px;
     font-weight: 700;
  }
- .banner-description,.about-description{
+ .banner-description,.about-description ,.skill-description{
     color: #757575;
     margin-bottom: 30px;
     font-size: 18px;
@@ -84,7 +84,7 @@ nav ul li a{
     border: 1px solid #FD6E0A;
  }
  /* Main section style  */
- main{
+ .resume-section-btn,main{
     max-width: 1140px;
     margin: 0 auto;
  }
@@ -100,6 +100,7 @@ nav ul li a{
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-align: center;
  }
  table{
     font-size: 20px;
@@ -117,23 +118,68 @@ nav ul li a{
 /* What i do section styles  */
 .what-i-do{
     margin-top: 130px;
-    text-align: center;
-}
-.what-i-do-title{
     
 }
+.what-i-do-title{
+    text-align: center;
 
+}
+
+.skills-description{
+    text-align: center;
+
+}
 .skill-container{
     display: flex;
     justify-content: space-between;
+    gap: 24px;
     margin-top: 50px;
+
 
 }
 .skill{
+    border-radius: 10px;
     padding: 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin-right: 24px;
+    /* margin-right: 24px; */
 }
-.skill-container :nth-child(4){
-    margin-right: 0;
+/* RESUME SECTION STYLE */
+.resume{
+    margin-top: 130px;
+}
+.resume-title{
+    margin-bottom: 100px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-content-subtitle{
+font-size: 30px;
+margin-bottom: 30px;
+}
+.single-education{
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.single-education-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.single-education-subtitle{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.resume-section-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
 }
